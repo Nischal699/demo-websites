@@ -1,0 +1,32 @@
+.item-1{
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    margin:4px 4px 4px 4px;
+}
+.item-2{
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    margin:4px 4px 4px 4px;
+}
+.item-3{
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    margin:4px 4px 4px 4px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
