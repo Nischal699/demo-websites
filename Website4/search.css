@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover input,
+.box input:focus {
+    width: 400px;
+}
+
+.box input {
+    border: none;
+    outline: none;
+    width: 0;
+    transition: 0.8s;
+    font-weight: 500;
+    background: transparent;
+}
+
+/* Remove the underline from the link */
+.box a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Ensure the icon is displayed properly */
+.box a i {
+    font-size: 18px;
+    color: #000;
+}
